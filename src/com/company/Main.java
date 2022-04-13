@@ -13,6 +13,7 @@ public class Main {
 
             MyString = reader.nextLine(); // Записываем в MyString всю введенную строку
             reader.close(); // закрываем сканер
+            if(MyString==null) throw new ArithmeticException();// исключение 
             char[] under_char = new char[MyString.length()];//Создаем массив char с количеством MyString
             char operator; // оператор действия
             int colchar = under_char.length;// размер массива
