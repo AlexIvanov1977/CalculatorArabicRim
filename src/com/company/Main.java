@@ -20,12 +20,8 @@ public class Main {
             // считаем пробелы в массиве который сделали из строки MyString
             for (int i = 0; i < colchar; i++) {
                 under_char[i] = MyString.charAt(i);
-            }
-            for (int f = 0; f < colchar; f++) {
-                if (under_char[f] == ' ') {
-
-                    probel++;// Сделаем исключение если более 2х
-                }
+                if (under_char[i] == ' ') probel++;// Сделаем исключение если более 2х
+                
             }
 
 
