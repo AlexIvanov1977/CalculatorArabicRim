@@ -39,7 +39,7 @@ public class Proverka {
         boolean g1=false;
         boolean g2=false;
         String[] i = {"1","2","3","4","5","6","7","8","9","10"};
-        for (int f = 0; f < 9; f++) {
+        for (int f = 0; f < 10; f++) {
             if (i[f].equals(numr1[0])) {
 
                 num1 = f + 1;
@@ -47,7 +47,7 @@ public class Proverka {
                 break;
             }
         }
-        for (int g = 0; g < 9; g++)
+        for (int g = 0; g < 10; g++)
         {
             if (i[g].equals(numr1[2])) {
                 num2=g+1;
@@ -68,14 +68,14 @@ public class Proverka {
         boolean g2=false;
 
 
-        for (int f = 0; f < 9; f++)
+        for (int f = 1; f < 11; f++)
         {
             if (str[f].equals(numr1[0])) {
                 g1 = true;
                 break;
             }
         }
-        for (int g = 0; g < 9; g++) {
+        for (int g = 1; g < 11; g++) {
             if (str[g].equals(numr1[2]))
             {
 
@@ -92,14 +92,14 @@ public class Proverka {
     //----------При римских числах присваивание значения переменной num1,num2
     void PerevodisRimvArabik()
     {
-        for(int u=1;u<10;u++)
+        for(int u=1;u<11;u++)
         {
             if(numr1[0].equals(str[u])) {
                 num1 = u;
                 break;
             }
         }
-        for(int t=1;t<10;t++)
+        for(int t=1;t<11;t++)
         {
             if(numr1[2].equals(str[t])) {
                 num2 = t;
